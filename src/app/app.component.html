@@ -1,7 +1,36 @@
 <div class='container main-frame'>
   <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-8">
+    <div class="col-md-3">
+     
+      <div class="bordered-box profile-img-box">
+        <div class="profile-img-section">
+            <img src="./assets/images/profile.JPG" 
+            class="img-responsive center-block"
+            style="max-height:300px;padding-bottom:50px"/>
+        </div>
+
+        <div class="col-md-12 text-center description">
+          <h3>Justus Mbaluka</h3>
+          <h5>Software Engineer</h5>
+        </div>
+        
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="bordered-box menu-box">
+        <ul class="list-unstyled menu-links">
+          <li class="bordered-box text-center"><a href="http://">Bio</a></li>
+          <li class="bordered-box text-center"><a href="http://">Skills</a></li>
+          <li class="bordered-box text-center"><a href="http://">Experience</a></li>
+          <li class="bordered-box text-center"><a href="http://">Portfolio</a></li>
+          <li class="bordered-box text-center"><a href="http://">Contact me</a></li>
+        </ul>
+
+      </div>
+      
+    </div>
+    <div class="col-md-9 bordered-box">
         <router-outlet></router-outlet>
     </div>
   </div>

@@ -1,4 +1,33 @@
 .main-frame {
-  margin-top: 10%;
-  height: 300px;
+  margin-top: 5%;
+  width: 1200px;
+}
+
+.bordered-box {
+  border:1px solid #ffffff;
+}
+
+.profile-img-section {
+ min-height: 250px;
+ background-color: #ffffff;
+}
+
+.description {
+  padding-top: 5%;
+}
+
+.menu-box {
+  padding: 5%;
+}
+
+.menu-links li {
+  margin-top: 8px;
+}
+
+.divider {
+  height: 10px;
+}
+
+a {
+  color: #ffffff;
 }
