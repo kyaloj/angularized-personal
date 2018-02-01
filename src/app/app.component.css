@@ -1,15 +1,6 @@
-.main-frame {
-  margin-top: 5%;
-  width: 1200px;
-}
-
-.bordered-box {
-  border:1px solid #ffffff;
-}
-
-.profile-img-section {
- min-height: 250px;
- background-color: #ffffff;
+.profile-img {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .description {
@@ -22,10 +13,6 @@
 
 .menu-links li {
   margin-top: 8px;
-}
-
-.divider {
-  height: 10px;
 }
 
 a {

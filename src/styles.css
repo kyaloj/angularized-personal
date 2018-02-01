@@ -3,3 +3,16 @@ body {
     background-image: url('assets/images/bgimage.jpg');
     color: #ffffff !important;
 }
+
+.main-frame {
+  margin-top: 5%;
+  width: 1200px;
+}
+  
+.bordered-box {
+  border:1px solid #ffffff;
+}
+  
+.divider {
+  height: 10px;
+}
