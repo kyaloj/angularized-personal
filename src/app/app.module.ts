@@ -7,6 +7,7 @@ import { BioComponent } from './bio/bio.component';
 import { BioModule } from './bio/bio.module';
 import { SkillsModule } from './skills/skills.module';
 import { ExperienceModule } from './experience/experience.module';
+import { PortfolioModule } from './portfolio/portfolio.module';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ExperienceModule } from './experience/experience.module';
     ]),
     BioModule,
     SkillsModule,
-    ExperienceModule
+    ExperienceModule,
+    PortfolioModule
   ],
   bootstrap: [AppComponent]
 })
