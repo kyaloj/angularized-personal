@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BioComponent } from './bio/bio.component';
 import { BioModule } from './bio/bio.module';
 import { SkillsModule } from './skills/skills.module';
+import { ExperienceModule } from './experience/experience.module';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { SkillsModule } from './skills/skills.module';
       { path: '**', redirectTo: 'bio', pathMatch: 'full'}
     ]),
     BioModule,
-    SkillsModule
+    SkillsModule,
+    ExperienceModule
   ],
   bootstrap: [AppComponent]
 })
